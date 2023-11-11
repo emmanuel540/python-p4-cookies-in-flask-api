@@ -23,8 +23,8 @@ def show_session(key):
 
     response.set_cookie('mouse', 'Cookie')
 
+
     return response
 
 if __name__ == '__main__':
     app.run(port=5555)
-    
